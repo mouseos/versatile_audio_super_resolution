@@ -26,4 +26,4 @@ iface = gr.Interface(
     description="Audio Super Resolution with AudioSR"
 )
 
-iface.launch()
+iface.launch(share=True)
